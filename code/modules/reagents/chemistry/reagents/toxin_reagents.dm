@@ -302,6 +302,7 @@
 	creation_purity = REAGENT_STANDARD_PURITY
 	purity = REAGENT_STANDARD_PURITY
 	ph = 11
+	inverse_chem_val = 0.3
 	inverse_chem = /datum/reagent/impurity/rosenol
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	addiction_types = list(/datum/addiction/hallucinogens = 18)  //7.2 per 2 seconds
@@ -457,6 +458,7 @@
 	toxpwr = 0
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
 	ph = 11
+	inverse_chem_val = 0.25
 	inverse_chem = /datum/reagent/impurity/chloralax
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -619,6 +621,7 @@
 	purity = REAGENT_STANDARD_PURITY
 	toxpwr = 1
 	ph = 2.0
+	inverse_chem_val = 0.25
 	inverse_chem = /datum/reagent/impurity/methanol
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -875,6 +878,7 @@
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	toxpwr = 0
 	ph = 6
+	inverse_chem_val = 0.25
 	inverse_chem = /datum/reagent/impurity/ipecacide
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 

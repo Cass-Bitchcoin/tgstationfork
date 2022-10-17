@@ -95,6 +95,8 @@
 	ph = 8.2
 	taste_description = "bitter with a hint of alcohol"
 	reagent_state = SOLID
+	inverse_chem_val = 0.3
+	inverse_chem = /datum/reagent/impurity/libitoil
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/medicine/c2/libital/on_mob_life(mob/living/carbon/M, delta_time, times_fired)
@@ -158,6 +160,8 @@
 	ph = 4.7
 	var/resetting_probability = 0 //What are these for?? Can I remove them?
 	var/spammer = 0
+	inverse_chem_val = 0.3
+	inverse_chem = /datum/reagent/impurity/lentslurri
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/medicine/c2/lenturi/on_mob_life(mob/living/carbon/M, delta_time, times_fired)
@@ -174,6 +178,8 @@
 	ph = 4
 	var/resetting_probability = 0 //same with this? Old legacy vars that should be removed?
 	var/message_cd = 0
+	inverse_chem_val = 0.3
+	inverse_chem = /datum/reagent/impurity/aiuri
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/medicine/c2/aiuri/on_mob_life(mob/living/carbon/M, delta_time, times_fired)
@@ -377,6 +383,8 @@
 	overdose_threshold = 6
 	ph = 8.6
 	var/conversion_amount
+	inverse_chem_val = 0.3
+	inverse_chem = /datum/reagent/inverse/healing/syriniver
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/medicine/c2/syriniver/on_transfer(atom/A, methods=INJECT, trans_volume)

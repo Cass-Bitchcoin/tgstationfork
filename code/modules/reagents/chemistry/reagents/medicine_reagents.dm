@@ -887,7 +887,7 @@
 	overdose_threshold = 15
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	purity = REAGENT_STANDARD_PURITY
-	inverse_chem = /datum/reagent/inverse
+	inverse_chem = /datum/reagent/impurity/mannitol
 	inverse_chem_val = 0.45
 
 /datum/reagent/medicine/mannitol/on_mob_life(mob/living/carbon/owner, delta_time, times_fired)
@@ -1468,6 +1468,8 @@
 	reagent_state = LIQUID
 	overdose_threshold = 50
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM //same as C2s
+	inverse_chem_val = 0.3
+	inverse_chem = /datum/reagent/inverse/ichiyuri
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/medicine/granibitaluri/on_mob_life(mob/living/carbon/M, delta_time, times_fired)

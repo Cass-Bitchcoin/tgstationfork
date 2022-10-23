@@ -2667,7 +2667,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
-/obj/effect/landmark/navigate_destination/tcomms,
 /turf/open/floor/iron/dark,
 /area/station/tcommsat/server)
 "aVZ" = (
@@ -3347,7 +3346,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/command/ai_upload,
 /obj/structure/cable/layer3,
-/obj/effect/landmark/navigate_destination/minisat_access_ai,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat_interior)
 "bhu" = (
@@ -4043,7 +4041,6 @@
 	name = "Dormitories"
 	},
 /obj/structure/cable,
-/obj/effect/landmark/navigate_destination,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -7561,6 +7558,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/mapping_helpers/airlock/access/all/science/ordnance,
 /obj/machinery/door/firedoor,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/office)
 "cQc" = (
@@ -7677,7 +7675,6 @@
 	space_dir = 1
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/effect/landmark/navigate_destination/dockescpod,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "cSm" = (
@@ -7913,7 +7910,6 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/aux_base,
-/obj/effect/landmark/navigate_destination/dockaux,
 /turf/open/floor/plating,
 /area/station/construction/mining/aux_base)
 "cWT" = (
@@ -9177,6 +9173,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "dth" = (
@@ -12597,24 +12594,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
-"eEu" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/obj/machinery/door/airlock/research{
-	name = "Research Division Access"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/unres,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "sci-entrance"
-	},
-/obj/structure/disposalpipe/segment,
-/obj/effect/mapping_helpers/airlock/access/all/science/general,
-/obj/effect/landmark/navigate_destination/research,
-/turf/open/floor/iron/white,
-/area/station/science/research)
 "eEx" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden,
@@ -13620,6 +13599,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/effect/mapping_helpers/airlock/access/all/science/genetics,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/white,
 /area/station/science/genetics)
 "eZH" = (
@@ -13825,6 +13805,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/commons/storage/art)
 "feV" = (
@@ -14027,7 +14008,6 @@
 	name = "MiniSat Access"
 	},
 /obj/structure/cable,
-/obj/effect/landmark/navigate_destination,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/poddoor/preopen{
 	id = "transitlockdown"
@@ -14035,6 +14015,7 @@
 /obj/effect/mapping_helpers/airlock/access/any/engineering/tcoms,
 /obj/effect/mapping_helpers/airlock/access/any/command/general,
 /obj/effect/mapping_helpers/airlock/access/any/command/minisat,
+/obj/effect/landmark/navigate_destination/minisat_access_tcomms_ai,
 /turf/open/floor/iron/dark,
 /area/station/engineering/transit_tube)
 "fip" = (
@@ -15141,7 +15122,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/service/janitor,
-/obj/effect/landmark/navigate_destination/janitor,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/maintenance/starboard/greater)
 "fGb" = (
@@ -15483,6 +15464,7 @@
 	cycle_id = "brig-entrance"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/entrance,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "fMb" = (
@@ -16195,6 +16177,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/construction,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
 "fZO" = (
@@ -16379,6 +16362,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/white,
 /area/station/science/robotics/lab)
 "gcV" = (
@@ -19408,7 +19392,6 @@
 	id = "briglockdown";
 	name = "Brig Shutters"
 	},
-/obj/effect/landmark/navigate_destination/sec,
 /turf/open/floor/plating,
 /area/station/security/brig)
 "hht" = (
@@ -24740,7 +24723,6 @@
 /obj/effect/mapping_helpers/airlock/access/any/command/general,
 /obj/effect/mapping_helpers/airlock/access/any/command/minisat,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/tcoms,
-/obj/effect/landmark/navigate_destination/minisat_access_tcomms_ai,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat/foyer)
 "iSk" = (
@@ -26092,6 +26074,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/commons/locker)
+"jrP" = (
+/obj/structure/cable,
+/obj/effect/landmark/navigate_destination/sec,
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "jrT" = (
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/tile/yellow{
@@ -27554,6 +27541,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/checker,
 /area/station/engineering/atmos/storage/gas)
 "jPJ" = (
@@ -29469,6 +29457,7 @@
 /area/station/commons/storage/primary)
 "kzg" = (
 /obj/machinery/ntnet_relay,
+/obj/effect/landmark/navigate_destination/tcomms,
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/station/tcommsat/server)
 "kzj" = (
@@ -31346,6 +31335,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron{
 	dir = 1
 	},
@@ -41491,7 +41481,6 @@
 /obj/effect/mapping_helpers/airlock/access/any/command/general,
 /obj/effect/mapping_helpers/airlock/access/any/command/minisat,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/tcoms,
-/obj/effect/landmark/navigate_destination/minisat_access_tcomms,
 /turf/open/floor/iron/dark,
 /area/station/tcommsat/computer)
 "oKI" = (
@@ -43203,6 +43192,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/landmark/navigate_destination/research,
 /turf/open/floor/iron/white/side,
 /area/station/science/lobby)
 "psc" = (
@@ -47897,7 +47887,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcoms,
-/obj/effect/landmark/navigate_destination/tcomms,
 /turf/open/floor/iron/dark,
 /area/station/tcommsat/server)
 "qYt" = (
@@ -48811,7 +48800,6 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/effect/landmark/navigate_destination/dockescpod,
 /turf/open/floor/iron,
 /area/station/maintenance/department/engine)
 "rsD" = (
@@ -49584,7 +49572,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/yellow/fourcorners,
-/obj/effect/landmark/navigate_destination/tools,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "rEy" = (
@@ -50755,7 +50743,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "escape-pod-3"
 	},
-/obj/effect/landmark/navigate_destination/dockescpod,
 /turf/open/floor/plating,
 /area/station/commons/fitness/recreation)
 "rVB" = (
@@ -56876,7 +56863,6 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/mapping_helpers/airlock/access/all/security/general,
-/obj/effect/landmark/navigate_destination/dockescpod,
 /turf/open/floor/plating,
 /area/station/security/execution/transfer)
 "tYW" = (
@@ -57843,6 +57829,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/aux_base,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/construction/mining/aux_base)
 "uqp" = (
@@ -61106,7 +61093,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/landmark/navigate_destination/tools,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "vvK" = (
@@ -63250,6 +63237,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /obj/effect/mapping_helpers/airlock/access/any/medical/pharmacy,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "why" = (
@@ -63843,6 +63831,7 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "wtu" = (
@@ -96322,7 +96311,7 @@ rbw
 gnm
 eVa
 rsI
-rCo
+jrP
 oQg
 rCo
 ifJ
@@ -98687,7 +98676,7 @@ cAw
 rtN
 prZ
 vGz
-eEu
+uqp
 eKA
 mnF
 eKA
